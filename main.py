@@ -14,7 +14,7 @@ chatStr = ""
 def chat(query):
     global chatStr
     print(chatStr)
-    genai.configure(api_key="AIzaSyCTFrA5MADwq1xVZcof8E1Rgp3KXUdH3uw")
+    genai.configure(api_key="<<YOUR_API_KEY>>")
     chatStr += f"User: {query}"
 
 
